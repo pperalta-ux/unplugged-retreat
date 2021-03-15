@@ -1,21 +1,61 @@
 html {
-font-size: 16px;
-}
-
+  font-size: 16px;
+  }
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  }
+/* ----- Header Styles ----- */
 header {
 
-}
+  }
+header .content-wrapper {
+  flex-flow: row wrap;
+  }
 .content-wrapper img {
   height: auto;
-}
+  }
+header figure {
 
+  }
+
+.header-divider {
+
+  }
+
+header nav {
+  flex-flow: row wrap;
+  }
 nav {
   color: #ffffff;
   display: inline;
 }
 
+/* ------ Mobile Styles - Homepage ------ */
+.hero-area {
+
+}
+
 .hero-area .content-area {
   background: url('../img/unsplash-background.jpg');
+  }
+aside {
+  flex-flow: row wrap;
+  }
+
+.features .features-items{
+  flex-flow: row wrap;
+  }
+.reviews {
+  flex-flow: row wrap;
+  }
+.contact {
+  flex-flow: row wrap;
+  }
+footer {
+
 }
 
 body {
