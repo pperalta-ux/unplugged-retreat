@@ -12,8 +12,22 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
+  }
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  }
+h2 {
+  font-family: 'Poppins', sans-serif;
+  }
+h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  }
+a {
+  color: #e2e3ed;
+  text-decoration: none;
   }
 /*
  * Remove text-shadow in selection highlight:
@@ -92,7 +106,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
