@@ -254,7 +254,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url('../img/unplugged-background.jpg');
+  background: url(../img/unplugged-retreat.jpg);
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -331,6 +331,11 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
@@ -671,7 +676,8 @@ input[type=button] {
   .mission-content p {
     width: 45%;
   }
-.map figure {
+
+  .map figure {
     padding-bottom: 45.5%;
   }
 
@@ -779,7 +785,6 @@ input[type=button] {
   footer h4 {
     font-size: 1.875em;
   }
-
   /* ==========================================================================
   About Page
   ========================================================================== */
@@ -789,8 +794,8 @@ input[type=button] {
 
   .mission h2,
   .contact-section .content-wrapper h2 {
-    width: 95%;
-    font-size: 3em;
+      width: 95%;
+      font-size: 3em;
   }
 
   .contact-content h4 {
